@@ -4,179 +4,179 @@
         "Location": "United States",
         "Details": "Bella is a friendly and energetic Labrador Retriever who loves to play fetch in the park. She's 3 years old and full of joy.",
         "Image": "https://raw.githubusercontent.com/FrancisND/PetsLocatorApp/master/pets-data/labrador_retriever.jpg",
-        "Age": "3",
-        "Latitude": "40.6892",
-        "Longitude": "-74.0445"
+        "Age": 3,
+        "Latitude": 40.6892,
+        "Longitude": -74.0445
     },
     {
         "Name": "Siamese",
         "Location": "Thailand",
         "Details": "Oliver is a vocal Siamese cat who loves to chat with his human companion. He's 4 years old and has striking blue eyes.",
         "Image": "https://raw.githubusercontent.com/FrancisND/PetsLocatorApp/master/pets-data/siamese.jpg",
-        "Age": "4",
-        "Latitude": "13.7469",
-        "Longitude": "100.4927"
+        "Age": 4,
+        "Latitude": 13.7469,
+        "Longitude": 100.4927
     },
     {
         "Name": "German Shepherd",
         "Location": "Germany",
         "Details": "Rocky is a loyal German Shepherd known for his protective nature. He enjoys long walks and is 4 years old.",
         "Image": "https://raw.githubusercontent.com/FrancisND/PetsLocatorApp/master/pets-data/german_shepherd.jpg",
-        "Age": "4",
-        "Latitude": "52.5163",
-        "Longitude": "13.3777"
+        "Age": 4,
+        "Latitude": 52.5163,
+        "Longitude": 13.3777
     },
     {
         "Name": "Maine Coon",
         "Location": "United States",
         "Details": "Whiskers is a large and gentle Maine Coon cat known for his fluffy tail. He's 5 years old and enjoys lounging in the sun.",
         "Image": "https://raw.githubusercontent.com/FrancisND/PetsLocatorApp/master/pets-data/maine_coon.jpg",
-        "Age": "5",
-        "Latitude": "40.7580",
-        "Longitude": "-73.9855"
+        "Age": 5,
+        "Latitude": 40.7580,
+        "Longitude": -73.9855
     },
     {
         "Name": "Golden Retriever",
         "Location": "Canada",
         "Details": "Daisy, a Golden Retriever, is always happy and loves swimming in the nearby lake. She's 2 years old and very affectionate.",
         "Image": "https://raw.githubusercontent.com/FrancisND/PetsLocatorApp/master/pets-data/golden_retriever.jpg",
-        "Age": "2",
-        "Latitude": "43.6426",
-        "Longitude": "-79.3871"
+        "Age": 2,
+        "Latitude": 43.6426,
+        "Longitude": -79.3871
     },
     {
         "Name": "Persian",
         "Location": "Iran",
         "Details": "Luna, the Persian cat, has a luxurious coat and enjoys a pampered lifestyle. She's 3 years old and loves being groomed.",
         "Image": "https://raw.githubusercontent.com/FrancisND/PetsLocatorApp/master/pets-data/persian.jpg",
-        "Age": "3",
-        "Latitude": "29.9358",
-        "Longitude": "52.8914"
+        "Age": 3,
+        "Latitude": 29.9358,
+        "Longitude": 52.8914
     },
     {
         "Name": "Bulldog",
         "Location": "United Kingdom",
         "Details": "Max is a Bulldog with a wrinkled face and a sweet disposition. He's 5 years old and enjoys lounging on the couch.",
         "Image": "https://raw.githubusercontent.com/FrancisND/PetsLocatorApp/master/pets-data/bulldog.jpg",
-        "Age": "5",
-        "Latitude": "51.5007",
-        "Longitude": "-0.1246"
+        "Age": 5,
+        "Latitude": 51.5007,
+        "Longitude": -0.1246
     },
     {
         "Name": "Bengal",
         "Location": "India",
         "Details": "Simba, a Bengal cat, has wild leopard-like spots and a playful personality. He's 2 years old and loves climbing and pouncing.",
         "Image": "https://raw.githubusercontent.com/FrancisND/PetsLocatorApp/master/pets-data/bengal.jpg",
-        "Age": "2",
-        "Latitude": "27.1750",
-        "Longitude": "78.0422"
+        "Age": 2,
+        "Latitude": 27.1750,
+        "Longitude": 78.0422
     },
     {
         "Name": "Siberian Husky",
         "Location": "Russia",
         "Details": "Luna, the Siberian Husky, is known for her striking blue eyes and love for the cold weather. She's 3 years old and playful.",
         "Image": "https://raw.githubusercontent.com/FrancisND/PetsLocatorApp/master/pets-data/siberian_husky.jpg",
-        "Age": "3",
-        "Latitude": "55.7539",
-        "Longitude": "37.6208"
+        "Age": 3,
+        "Latitude": 55.7539,
+        "Longitude": 37.6208
     },
     {
         "Name": "Ragdoll",
         "Location": "Australia",
         "Details": "Chloe is a Ragdoll cat with striking blue eyes and a calm temperament. She's 6 years old and enjoys being held like a baby.",
         "Image": "https://raw.githubusercontent.com/FrancisND/PetsLocatorApp/master/pets-data/ragdoll.jpg",
-        "Age": "6",
-        "Latitude": "-37.8176",
-        "Longitude": "144.9691"
+        "Age": 6,
+        "Latitude": -37.8176,
+        "Longitude": 144.9691
     },
     {
         "Name": "Beagle",
         "Location": "Australia",
         "Details": "Charlie is a curious Beagle who loves to explore and sniff around. He's 6 years old and has a great nose for scents.",
         "Image": "https://raw.githubusercontent.com/FrancisND/PetsLocatorApp/master/pets-data/beagle.jpg",
-        "Age": "6",
-        "Latitude": "-33.8568",
-        "Longitude": "151.2153"
+        "Age": 6,
+        "Latitude": -33.8568,
+        "Longitude": 151.2153
     },
     {
         "Name": "Scottish Fold",
         "Location": "United Kingdom",
         "Details": "Leo is a Scottish Fold cat known for his folded ears and playful nature. He's 4 years old and enjoys chasing feather toys.",
         "Image": "https://raw.githubusercontent.com/FrancisND/PetsLocatorApp/master/pets-data/scottish_fold.jpg",
-        "Age": "4",
-        "Latitude": "55.9486",
-        "Longitude": "-3.1999"
+        "Age": 4,
+        "Latitude": 55.9486,
+        "Longitude": -3.1999
     },
     {
         "Name": "Poodle",
         "Location": "France",
         "Details": "Lucy, a Poodle, is a graceful and intelligent dog who enjoys learning new tricks. She's 4 years old and very obedient.",
         "Image": "https://raw.githubusercontent.com/FrancisND/PetsLocatorApp/master/pets-data/poodle.jpg",
-        "Age": "4",
-        "Latitude": "48.8584",
-        "Longitude": "2.2945"
+        "Age": 4,
+        "Latitude": 48.8584,
+        "Longitude": 2.2945
     },
     {
         "Name": "Sphynx",
         "Location": "Canada",
         "Details": "Bella, the Sphynx cat, is hairless and loves cuddling to stay warm. She's 2 years old and has a mischievous side.",
         "Image": "https://raw.githubusercontent.com/FrancisND/PetsLocatorApp/master/pets-data/sphynx.jpg",
-        "Age": "2",
-        "Latitude": "49.3023",
-        "Longitude": "-123.1448"
+        "Age": 2,
+        "Latitude": 49.3023,
+        "Longitude": -123.1448
     },
     {
         "Name": "Boxer",
         "Location": "United States",
         "Details": "Cooper, a Boxer, is a high-energy dog who loves running in the park. He's 2 years old and always ready to play.",
         "Image": "https://raw.githubusercontent.com/FrancisND/PetsLocatorApp/master/pets-data/boxer.jpg",
-        "Age": "2",
-        "Latitude": "37.8199",
-        "Longitude": "-122.4783"
+        "Age": 2,
+        "Latitude": 37.8199,
+        "Longitude": -122.4783
     },
     {
         "Name": "British Shorthair",
         "Location": "France",
         "Details": "Mia is a British Shorthair cat with a round face and a sweet demeanor. She's 7 years old and enjoys napping in cozy spots.",
         "Image": "https://raw.githubusercontent.com/FrancisND/PetsLocatorApp/master/pets-data/british_shorthair.jpg",
-        "Age": "7",
-        "Latitude": "48.8606",
-        "Longitude": "2.3376"
+        "Age": 7,
+        "Latitude": 48.8606,
+        "Longitude": 2.3376
     },
     {
         "Name": "Dachshund",
         "Location": "Germany",
         "Details": "Mia is a Dachshund with a long body and a big heart. She's 7 years old and enjoys cuddling on the couch.",
         "Image": "https://raw.githubusercontent.com/FrancisND/PetsLocatorApp/master/pets-data/dachshund.jpg",
-        "Age": "7",
-        "Latitude": "47.5576",
-        "Longitude": "10.7498"
+        "Age": 7,
+        "Latitude": 47.5576,
+        "Longitude": 10.7498
     },
     {
         "Name": "Chaton",
         "Location": "United States",
         "Details": "Gizmo, another Bengal cat, is known for his playful antics and love for hunting toy mice. He's 3 years old and full of energy.",
         "Image": "https://raw.githubusercontent.com/FrancisND/PetsLocatorApp/master/pets-data/chaton.jpg",
-        "Age": "3",
-        "Latitude": "38.8977",
-        "Longitude": "-77.0365"
+        "Age": 3,
+        "Latitude": 38.8977,
+        "Longitude": -77.0365
     },
     {
         "Name": "Yorkshire Terrier",
         "Location": "United Kingdom",
         "Details": "Bailey is a tiny Yorkshire Terrier with a big personality. She's 8 years old and loves being the center of attention.",
         "Image": "https://raw.githubusercontent.com/FrancisND/PetsLocatorApp/master/pets-data/yorkshire_terrier.jpg",
-        "Age": "8",
-        "Latitude": "51.1789",
-        "Longitude": "-1.8262"
+        "Age": 8,
+        "Latitude": 51.1789,
+        "Longitude": -1.8262
     },
     {
         "Name": "Tabby",
         "Location": "Brazil",
         "Details": "Charlie is a friendly Tabby cat with a distinctive \"M\" on his forehead. He's 5 years old and enjoys chasing laser pointers.",
         "Image": "https://raw.githubusercontent.com/FrancisND/PetsLocatorApp/master/pets-data/tabby.jpg",
-        "Age": "5",
-        "Latitude": "-22.9519",
-        "Longitude": "-43.2105"
+        "Age": 5,
+        "Latitude": -22.9519,
+        "Longitude": -43.2105
     }
 ]
