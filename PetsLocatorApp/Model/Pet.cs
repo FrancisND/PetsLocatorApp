@@ -6,7 +6,7 @@ public class Pet
     public string Location { get; set; }
     public string Details { get; set; }
     public string Image { get; set; }
-    public string Age { get; set; }
-    public string Latitude { get; set; }
-    public string Longitude { get; set; }
+    public int Age { get; set; }
+    public double Latitude { get; set; }
+    public double Longitude { get; set; }
 }
