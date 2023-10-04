@@ -1,13 +1,17 @@
-﻿namespace PetsLocatorApp;
+﻿using PetsLocatorApp.ViewModel;
+
+namespace PetsLocatorApp;
 
 public partial class MainPage : ContentPage
 {
 	//int count = 0;
 
-	public MainPage()
+	public MainPage(PetsViewModel petsViewModel)
 	{
 		InitializeComponent();
-	}
+		BindingContext = petsViewModel;
+
+    }
 
 	private void OnCounterClicked(object sender, EventArgs e)
 	{

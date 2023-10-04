@@ -4,5 +4,50 @@
         <name>PetsLocatorApp</name>
     </assembly>
     <members>
+        <member name="T:PetsLocatorApp.ViewModel.BaseViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:PetsLocatorApp.ViewModel.BaseViewModel.IsBusy">
+            <inheritdoc cref="F:PetsLocatorApp.ViewModel.BaseViewModel.isBusy"/>
+        </member>
+        <member name="P:PetsLocatorApp.ViewModel.BaseViewModel.Title">
+            <inheritdoc cref="F:PetsLocatorApp.ViewModel.BaseViewModel.title"/>
+        </member>
+        <member name="T:PetsLocatorApp.ViewModel.PetsViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="F:PetsLocatorApp.ViewModel.PetsViewModel.getPetsCommand">
+            <summary>The backing field for <see cref="P:PetsLocatorApp.ViewModel.PetsViewModel.GetPetsCommand"/>.</summary>
+        </member>
+        <member name="P:PetsLocatorApp.ViewModel.PetsViewModel.GetPetsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:PetsLocatorApp.ViewModel.PetsViewModel.GetPetsAsync"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsNotBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsNotBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
     </members>
 </doc>
