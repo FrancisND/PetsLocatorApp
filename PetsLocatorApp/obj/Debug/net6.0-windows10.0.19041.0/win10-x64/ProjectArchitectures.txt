@@ -1,0 +1,1 @@
+C:\Users\ADMIN\Documents\Francis\ICT2\DotNetMaui\3. PetsLocator\PetsLocatorApp\PetsLocatorApp\PetsLocatorApp.csproj;x64
