@@ -13,10 +13,10 @@ namespace PetsLocatorApp.ViewModel
         
         public ObservableCollection<Pet> Pets { get; } = new();
 
-        public PetsViewModel(IPetService petService)
+        public PetsViewModel(IPetService _petService)
         {
             Title = "Pet Locator";
-            petService = petService;
+            petService = _petService;
         }
 
         [RelayCommand]
