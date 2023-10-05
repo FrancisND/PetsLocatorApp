@@ -22,7 +22,8 @@
                 <DataTemplate x:DataType="model:Pet">
                     <Grid Padding="10">
                         <Frame HeightRequest="125"
-                               Padding="0">
+                               Padding="0"
+                               Style="{StaticResource CardView}">
                             <Grid Padding="0"
                                   ColumnDefinitions="125,*">
 
@@ -50,6 +51,7 @@
         
         
         <Button Text="Get Pets"
+                Style="{StaticResource ButtonOutline}"
                 Command="{Binding GetPetsCommand}"
                 IsEnabled="{Binding IsNotBusy}"
                 Grid.Row="1"
