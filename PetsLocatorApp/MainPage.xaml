@@ -7,51 +7,63 @@
              Title="{Binding Title}"
              x:Class="PetsLocatorApp.MainPage">
 
-    <!--<VerticalStackLayout Spacing="20" Padding="20">
-        <Button Text="Click Me !!!" FontSize="40" BackgroundColor="Orange"></Button>
-        <Button Text="Click Me !!!" FontSize="40" BackgroundColor="Green"></Button>
-    </VerticalStackLayout>-->
+    <Grid ColumnDefinitions="*,*"
+          ColumnSpacing="5"
+          RowDefinitions="*,Auto"
+          RowSpacing="0">
 
-    <CollectionView>
-        <CollectionView.ItemsSource>
-            <x:Array Type="{x:Type model:Pet}">
-                <model:Pet
-                    Name="Labrador Retriever"
-                    Location="United States"
-                    Image="https://raw.githubusercontent.com/FrancisND/PetsLocatorApp/master/pets-data/labrador_retriever.jpg"
-                    />
-                <model:Pet
-                    Name="Siamese"
-                    Location="Thailand"
-                    Image="https://raw.githubusercontent.com/FrancisND/PetsLocatorApp/master/pets-data/siamese.jpg"
-                    />
-                <model:Pet
-                    Name="German Shepherd"
-                    Location="Germany"
-                    Image="https://raw.githubusercontent.com/FrancisND/PetsLocatorApp/master/pets-data/german_shepherd.jpg"
-                    />
-            </x:Array>
-        </CollectionView.ItemsSource>
 
-        <CollectionView.ItemTemplate>
-            <DataTemplate x:DataType="model:Pet">
+        <CollectionView BackgroundColor="Transparent"
+                        Grid.ColumnSpan="2"
+                        ItemsSource="{Binding Pets}"
+                        SelectionMode="None">
 
-                <HorizontalStackLayout Padding="10">
-                    <Image Source="{Binding Image}"
-                        HeightRequest="100"
-                        WidthRequest="100"
-                        Aspect="AspectFill"/>
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="model:Pet">
+                    <Grid Padding="10">
+                        <Frame HeightRequest="125"
+                               Padding="0">
+                            <Grid Padding="0"
+                                  ColumnDefinitions="125,*">
 
-                    <VerticalStackLayout Padding="10" Spacing="5" VerticalOptions="Center">
-                        <Label Text="{Binding Name}" FontSize="20"/>
-                        <Label Text="{Binding Location}" FontSize="14"/>
-                    </VerticalStackLayout>
-                </HorizontalStackLayout>
-                
-                
-            </DataTemplate>
-        </CollectionView.ItemTemplate>
+                                <Image Aspect="AspectFill"
+                                    Source="{Binding Image}"
+                                    WidthRequest="125"
+                                    HeightRequest="125"/>
+
+                                <VerticalStackLayout Grid.Column="1"
+                                                     Padding="10"
+                                                     VerticalOptions="Center">
+                                    <Label Text="{Binding Name}"
+                                           Style=""/>
+                                    
+                                    <Label Text="{Binding Location}"/>
+                                </VerticalStackLayout>
+
+                            </Grid>
+                        </Frame>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+            
+        </CollectionView>
         
-    </CollectionView>
+        
+        <Button Text="Get Pets"
+                Command="{Binding GetPetsCommand}"
+                IsEnabled="{Binding IsNotBusy}"
+                Grid.Row="1"
+                Margin="8"/>
+
+        <ActivityIndicator IsVisible="{Binding IsBusy}"
+                           IsRunning="{Binding IsBusy}"
+                           HorizontalOptions="FillAndExpand"
+                           VerticalOptions="CenterAndExpand"
+                           Grid.RowSpan="2"
+                           Grid.ColumnSpan="2" />
+
+
+    </Grid>
+        
 
 </ContentPage>
