@@ -36,9 +36,10 @@
                                                      Padding="10"
                                                      VerticalOptions="Center">
                                     <Label Text="{Binding Name}"
-                                           Style=""/>
+                                           Style="{StaticResource LargeLabel}"/>
                                     
-                                    <Label Text="{Binding Location}"/>
+                                    <Label Text="{Binding Location}"
+                                           Style="{StaticResource MediumLabel}"/>
                                 </VerticalStackLayout>
 
                             </Grid>
