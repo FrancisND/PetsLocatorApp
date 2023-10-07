@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using PetsLocatorApp.Services;
+using PetsLocatorApp.View;
 
 namespace PetsLocatorApp.ViewModel
 {
@@ -45,6 +46,18 @@ namespace PetsLocatorApp.ViewModel
             {
                 IsBusy = false;
             }
+        }
+
+        [RelayCommand]
+        async Task GoToDetailsAsync(Pet pet)
+        {
+            if(pet is null) return;
+
+            await Shell.Current.GoToAsync($"{nameof(DetailsPage)}", true,
+                new Dictionary<string, object>
+                {
+                    {"Pet", pet}
+                });
         }
     }
 }

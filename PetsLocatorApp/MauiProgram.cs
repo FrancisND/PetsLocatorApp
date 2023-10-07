@@ -1,4 +1,5 @@
 ﻿using PetsLocatorApp.Services;
+using PetsLocatorApp.View;
 using PetsLocatorApp.ViewModel;
 
 namespace PetsLocatorApp;
@@ -17,8 +18,12 @@ public static class MauiProgram
 			});
 
 		builder.Services.AddSingleton<MainPage>();
+
 		builder.Services.AddScoped<IPetService, PetService>();
 		builder.Services.AddSingleton<PetsViewModel>();
+
+		builder.Services.AddTransient<PetDetailsViewModel>();
+		builder.Services.AddTransient<DetailsPage>();
 		
 		return builder.Build();
 	}
