@@ -1,6 +1,6 @@
 ﻿using PetsLocatorApp.ViewModel;
 
-namespace PetsLocatorApp;
+namespace PetsLocatorApp.View;
 
 public partial class MainPage : ContentPage
 {

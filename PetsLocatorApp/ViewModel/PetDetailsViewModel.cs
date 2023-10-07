@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace PetsLocatorApp.ViewModel
 {
+    [QueryProperty("Pet", "Pet")]
     public partial class PetDetailsViewModel : BaseViewModel
     {
+        public PetDetailsViewModel()
+        {
+            
+        }
+
+        [ObservableProperty]
+        Pet pet;
     }
 }
