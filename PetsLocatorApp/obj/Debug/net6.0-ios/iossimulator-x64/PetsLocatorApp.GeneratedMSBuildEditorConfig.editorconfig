@@ -22,12 +22,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = PetsLocatorApp.AppShell.xa
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/ADMIN/Documents/Francis/ICT2/DotNetMaui/3. PetsLocator/PetsLocatorApp/PetsLocatorApp/MainPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = PetsLocatorApp.MainPage.xaml
-build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
-build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
-
 [C:/Users/ADMIN/Documents/Francis/ICT2/DotNetMaui/3. PetsLocator/PetsLocatorApp/PetsLocatorApp/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PetsLocatorApp.Resources.Styles.Colors.xaml
@@ -39,3 +33,15 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PetsLocatorApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/ADMIN/Documents/Francis/ICT2/DotNetMaui/3. PetsLocator/PetsLocatorApp/PetsLocatorApp/View/DetailsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PetsLocatorApp.View.DetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\DetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\DetailsPage.xaml
+
+[C:/Users/ADMIN/Documents/Francis/ICT2/DotNetMaui/3. PetsLocator/PetsLocatorApp/PetsLocatorApp/View/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PetsLocatorApp.View.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\MainPage.xaml

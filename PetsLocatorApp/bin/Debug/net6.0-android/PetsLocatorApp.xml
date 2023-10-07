@@ -13,7 +13,14 @@
         <member name="P:PetsLocatorApp.ViewModel.BaseViewModel.Title">
             <inheritdoc cref="F:PetsLocatorApp.ViewModel.BaseViewModel.title"/>
         </member>
+        <member name="T:PetsLocatorApp.ViewModel.PetDetailsViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:PetsLocatorApp.ViewModel.PetDetailsViewModel.Pet">
+            <inheritdoc cref="F:PetsLocatorApp.ViewModel.PetDetailsViewModel.pet"/>
+        </member>
         <member name="T:PetsLocatorApp.ViewModel.PetsViewModel">
+            <inheritdoc/>
             <inheritdoc/>
         </member>
         <member name="F:PetsLocatorApp.ViewModel.PetsViewModel.getPetsCommand">
@@ -21,6 +28,12 @@
         </member>
         <member name="P:PetsLocatorApp.ViewModel.PetsViewModel.GetPetsCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:PetsLocatorApp.ViewModel.PetsViewModel.GetPetsAsync"/>.</summary>
+        </member>
+        <member name="F:PetsLocatorApp.ViewModel.PetsViewModel.goToDetailsCommand">
+            <summary>The backing field for <see cref="P:PetsLocatorApp.ViewModel.PetsViewModel.GoToDetailsCommand"/>.</summary>
+        </member>
+        <member name="P:PetsLocatorApp.ViewModel.PetsViewModel.GoToDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:PetsLocatorApp.ViewModel.PetsViewModel.GoToDetailsAsync(PetsLocatorApp.Model.Pet)"/>.</summary>
         </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
             <summary>
@@ -33,6 +46,9 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Title">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Pet">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Pet" generated properties.</summary>
         </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
@@ -48,6 +64,9 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Title">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Pet">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Pet" generated properties.</summary>
         </member>
     </members>
 </doc>
