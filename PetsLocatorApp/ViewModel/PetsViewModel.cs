@@ -26,6 +26,9 @@ namespace PetsLocatorApp.ViewModel
             this.geolocation = geolocation;
         }
 
+        [ObservableProperty]
+        bool isRefreshing;
+
         [RelayCommand]
         async Task GetPetsAsync()
         {
@@ -57,6 +60,7 @@ namespace PetsLocatorApp.ViewModel
             finally
             {
                 IsBusy = false;
+                IsRefreshing = false;
             }
         }
 

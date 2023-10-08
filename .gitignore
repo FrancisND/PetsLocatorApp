@@ -371,3 +371,6 @@ Debug/
 debug/
 .vs/
 PetsLocatorApp/.vs
+/.vs/PetsLocatorApp/v17/.suo
+/PetsLocatorApp/bin/Debug/net6.0-android/com.companyname.petslocatorapp-Signed.apk
+/PetsLocatorApp/bin/Debug/net6.0-android/com.companyname.petslocatorapp.apk
