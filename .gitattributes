@@ -1,4 +1,4 @@
-*.cp linguist-detectable=false
+*.c linguist-detectable=false
 *.cxx linguist-detectable=false
 *.cc linguist-detectable=false
 *.java linguist-detectable=false
